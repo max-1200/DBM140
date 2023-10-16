@@ -2,6 +2,11 @@
 The International Survey on Emotion Antecedents and Reactions as a python dataset for MachineLearning
 http://www.affective-sciences.org/researchmaterial
 
+# GloVe vectors with 50 dimensions
+Pre-trained word vectors. This data is made available under the Public Domain Dedication and License v1.0.
+Wikipedia 2014 + Gigaword 5 (6B tokens, 400K vocab, uncased, 50d, 100d, 200d, & 300d vectors, 822 MB download): glove.6B.zip / glove.6B.50d.txt
+https://nlp.stanford.edu/projects/glove/
+
 # Purpose
 The purpose of this code repository is to provide a python loader for the Isear Data set
 The ISEAR dataset has been developped by the Swiss National Center of Competence in Research.
