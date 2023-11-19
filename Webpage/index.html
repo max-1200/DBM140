@@ -8,15 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/Webpage/styles/page_elements.css">
     <link rel="stylesheet" href="/Webpage/styles/text_elements.css">
-    <link rel="stylesheet" href="https://pyscript.net/releases/2023.11.1/core.css" />
-    <script type="module" src="https://pyscript.net/releases/2023.11.1/core.js"></script>
-    <!-- This is to load in the python embedding into the webpage-->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+    <script src="/Webpage/scripts/prediction_script.js"></script>
 </head>
-
-<py-script src="Webpage/scripts/main.py"></py-script>
-<py-script>
-userInput = getElementById(user_input)
-</py-script> 
 
 <body class="light_body_background">
     <div class="title_text_center">
