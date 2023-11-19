@@ -1,0 +1,1 @@
+userInput = getElementById(user_input)

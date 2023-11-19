@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Webpage/styles/page_elements.css">
+    <link rel="stylesheet" href="/Webpage/styles/text_elements.css">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2023.11.1/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2023.11.1/core.js"></script>
+    <!-- This is to load in the python embedding into the webpage-->
+</head>
+
+<py-script src="Webpage/scripts/main.py"></py-script>
+<py-script>
+userInput = getElementById(user_input)
+</py-script> 
+
+<body class="light_body_background">
+    <div class="title_text_center">
+        Emotion Classification
+    </div>
+
+    <input id="user_input" type="text">
+
+
+</body>

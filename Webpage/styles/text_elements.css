@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Bahnschrift';
+    src: url("fonts/Bahnschrift-Font-Family/BAHNSCHRIFT.TTF") format("truetype");
+    src: url("fonts/Bahnschrift-Font-Family/BAHNSCHRIFT.woff") format('woff');
+    /*importing the bahnschrift light from the folder*/
+}
+
+.title_text_center{
+    font-family: 'Bahnschrift';
+    /* font-weight: bold; */
+    /* font weight does not change for bahnschrift, known problem from my website */
+    font-size: 100px;
+    text-align: center;
+}
